@@ -1,0 +1,21 @@
+/* mg-admin-styles.css */
+.wrap .wp-list-table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.wrap .wp-list-table th,
+.wrap .wp-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.wrap .wp-list-table th {
+    background-color: #f1f1f1;
+}
+
+.wrap .wp-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
